@@ -10,6 +10,8 @@ import kroryi.board.util.SceneUtil;
 import java.io.IOException;
 import java.net.URL;
 
+//메인수정
+
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {

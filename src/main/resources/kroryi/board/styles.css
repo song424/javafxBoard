@@ -1,0 +1,66 @@
+.gradient-background{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #D91F4E, #FF854C);
+}
+
+.table-cell {
+    -fx-alignment: CENTER; /* 셀 내용 가운데 정렬 */
+}
+
+.button {
+    -fx-background-color: transparent; /* 배경색을 투명으로 설정 */
+    -fx-text-fill: white; /* 텍스트 색상 설정 (원하는 색상으로 변경 가능) */
+    -fx-font-size: 14px; /* 글꼴 크기 설정 */
+    -fx-padding: 10px 20px; /* 버튼 안쪽 여백 설정 */
+    /*-fx-border-color: #4CAF50; !* 테두리 색상 설정 *!*/
+    -fx-border-width: 2px; /* 테두리 두께 설정 */
+    -fx-border-radius: 5px; /* 테두리 둥글기 설정 */
+    -fx-background-radius: 5px; /* 배경 둥글기 설정 */
+
+}
+
+.button:hover {
+    -fx-background-color: white; /* 호버 시 배경색 (흰색) */
+    -fx-text-fill: black; /* 호버 시 글자색 (검정색) */
+}
+.label{
+    -fx-text-fill: white;
+}
+
+/* TableView 스타일 */
+.table-view {
+    -fx-background-color: #f4f4f9; /* 배경색 (연한 회색) */
+    -fx-background-radius: 10px; /* 배경 모서리 반경 */
+    -fx-border-color: #ccc; /* 테두리 색상 (연한 회색) */
+    -fx-border-width: 1px; /* 테두리 두께 */
+    -fx-border-radius: 10px; /* 테두리 모서리 반경 */
+}
+
+/* TableColumn 헤더 스타일 */
+.table-view .column-header-background {
+    -fx-background-color: #2c3e50; /* 헤더 배경색 (짙은 파랑색) */
+    -fx-text-fill: white; /* 헤더 텍스트 색상 (흰색) */
+    -fx-padding: 5px; /* 헤더 패딩 */
+    -fx-font-weight: bold; /* 헤더 글자 두께 (굵은 글씨) */
+}
+
+/* TableRow 스타일 */
+.table-row-cell {
+    -fx-background-color: transparent; /* 행 배경색 (투명) */
+    -fx-text-fill: #333; /* 행 글자색 (짙은 회색) */
+}
+
+/* 선택된 행의 스타일 */
+.table-row-cell:filled:selected {
+    -fx-background-color: #3498db; /* 선택된 행 배경색 (파랑색) */
+    -fx-text-fill: white; /* 선택된 행 글자색 (흰색) */
+}
+
+/* TableCell 스타일 */
+.table-cell {
+    -fx-background-color: transparent; /* 셀 배경색 (투명) */
+    -fx-text-fill: #333; /* 셀 글자색 (짙은 회색) */
+}
+
+/* TableRow의 홀수 번째 행 배경색
+
+
